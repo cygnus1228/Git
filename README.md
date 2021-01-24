@@ -222,6 +222,8 @@ id_rsa.pub公钥  id_ras私钥
 拷贝公钥内容并设置到git中-settings-ssh
 在git本地配置ssh地址
 git remote add origin git@github.com:cygnus1228/git.git
+```
+```
 (3)git自动管理凭证
 ```
 ###### 3.git ignore
