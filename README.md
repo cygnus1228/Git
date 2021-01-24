@@ -77,11 +77,15 @@ m, merge [-C <commit> | -c <commit>] <label> [# <oneline>]
 These lines can be re-ordered; they are executed from top to bottom.
 If you remove a line here THAT COMMIT WILL BE LOST.
 However, if you remove everything, the rebase will be aborted.
+```
+```
 (2)合并不同分支的版本记录
 git checkout dev
 git rebase master
 git checkout master
 git merge dev
+```
+```
 (3)合并忘记提交造成的分叉
 git pull origin dev换成
 git fetch origin dev
