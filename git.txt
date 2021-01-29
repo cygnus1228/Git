@@ -77,11 +77,15 @@ m, merge [-C <commit> | -c <commit>] <label> [# <oneline>]
 These lines can be re-ordered; they are executed from top to bottom.
 If you remove a line here THAT COMMIT WILL BE LOST.
 However, if you remove everything, the rebase will be aborted.
+```
+```
 (2)合并不同分支的版本记录
 git checkout dev
 git rebase master
 git checkout master
 git merge dev
+```
+```
 (3)合并忘记提交造成的分叉
 git pull origin dev换成
 git fetch origin dev
@@ -112,6 +116,13 @@ git merge 要合并分支名称
 产生冲突：手动修改
 删除分支：git branch -d 分支名称
 ```
+###### 15.更换默认master(main)名称并删除远程分支
+###### 更换本地分支名称
+```git branch -m master(main) 其他名称```
+###### 更改github默认分支
+```settings-branches```
+###### 删除远程分支
+```git push origin --delete master(main)```
 ## 二、在家上传代码
 ###### 1.给远程仓库起名
 ``` git remote add origin 远程仓库地址```
@@ -218,6 +229,8 @@ id_rsa.pub公钥  id_ras私钥
 拷贝公钥内容并设置到git中-settings-ssh
 在git本地配置ssh地址
 git remote add origin git@github.com:cygnus1228/git.git
+```
+```
 (3)git自动管理凭证
 ```
 ###### 3.git ignore
@@ -233,3 +246,4 @@ repositories-issues
 (2)wiki  介绍
 repositories-wiki
 ```
+[更多](https://github.com/github)
