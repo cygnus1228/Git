@@ -116,6 +116,13 @@ git merge 要合并分支名称
 产生冲突：手动修改
 删除分支：git branch -d 分支名称
 ```
+###### 15.更换默认master(main)名称并删除远程分支
+###### 更换本地分支名称
+```git branch -m master(main) 其他名称```
+###### 更改github默认分支
+```settings-branches```
+###### 删除远程分支
+```git push origin --delete master(main)```
 ## 二、在家上传代码
 ###### 1.给远程仓库起名
 ``` git remote add origin 远程仓库地址```
