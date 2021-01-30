@@ -5,7 +5,7 @@
 type选择Remote
 URL:https://gitee.com/cnfeffery/GitHub520/raw/master/hosts
 ```
-###### SwitchHosts
+
 ```
 百度网盘：https://pan.baidu.com/s/18yEn7VGNoIWOg0H2N0_3gw 提取码: eh4d
 备用秒传链接：e50e6df756ed094b2c4d6fceb5252be3#34272a00e92b9ed479f9b7706754a3fd#103944899#SwitchHosts._windows_installer_3.5.6.5551.exe
