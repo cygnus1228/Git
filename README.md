@@ -1,9 +1,10 @@
-# 连接
+# 连接github
 ## [SwitchHosts](https://github.com/oldj/SwitchHosts/blob/master/README_cn.md)
 ```
 下载后直接正常安装，接着以管理员身份打开，点击左下角+新建hosts
 type选择Remote
 URL:https://gitee.com/cnfeffery/GitHub520/raw/master/hosts
+时间：每分钟
 ```
 
 ```
