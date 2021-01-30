@@ -11,7 +11,7 @@ URL:https://gitee.com/cnfeffery/GitHub520/raw/master/hosts
 备用秒传链接：e50e6df756ed094b2c4d6fceb5252be3#34272a00e92b9ed479f9b7706754a3fd#103944899#SwitchHosts._windows_installer_3.5.6.5551.exe
 ```
 # [流程](https://www.bilibili.com/video/BV1tf4y1e7yt?p=1)
-## 一、开始写代码
+## 一、A端开始写代码
 ###### 1.初始化
 ```
 Wndows:进入文件夹右键git bash here
@@ -135,17 +135,17 @@ git merge 要合并分支名称
 ```settings-branches```
 ###### 删除远程分支
 ```git push origin --delete master(main)```
-## 二、在家上传代码
+## 二、A端上传代码
 ###### 1.给远程仓库起名
 ``` git remote add origin 远程仓库地址```
 ###### 2.向远程仓库推送代码
 ```git push -u origin 分支```
-## 三、到公司新电脑第一次获取代码
+## 三、B端第一次获取代码
 ###### 1.克隆远程仓库代码
 ```git clone 远程仓库地址```
 ###### 2.切换分支
 ```git checkout 分支```
-## 四、在公司进行开发
+## 四、B端进行开发
 ###### 1.切换到dev分支进行开发
 ```git checkout dev```
 ###### 2.把master分支合并到dev (仅一次)
@@ -157,7 +157,7 @@ git add .
 git commit -m xxx
 git push origin dev
 ```
-## 五、回到家中继续写代码
+## 五、BA端继续写代码
 ###### 1.切换到dev分支进行开发
 ```git checkout dev```
 ###### 2.拉代码
@@ -169,7 +169,7 @@ git add .
 git commit -m xxx
 git push origin dev
 ```
-## 六、到公司继续
+## 六、B端继续
 ###### 1.切换到dev分支进行开发
 ```git checkout dev```
 ###### 2.拉代码
