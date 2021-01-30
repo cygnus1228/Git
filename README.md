@@ -1,3 +1,11 @@
+# 连接
+## [SwitchHosts](e50e6df756ed094b2c4d6fceb5252be3#34272a00e92b9ed479f9b7706754a3fd#103944899#SwitchHosts._windows_installer_3.5.6.5551.exe)
+```
+下载后直接正常安装，接着以管理员身份打开，点击左下角+新建hosts
+type选择Remote
+URL:https://gitee.com/cnfeffery/GitHub520/raw/master/hosts
+```
+
 # [流程](https://www.bilibili.com/video/BV1tf4y1e7yt?p=1)
 ## 一、开始写代码
 ###### 1.初始化
